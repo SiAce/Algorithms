@@ -1,0 +1,9 @@
+# macOS file
+.DS_Store
+
+# idea folder
+.idea/
+*.iml
+
+# java output
+out/
