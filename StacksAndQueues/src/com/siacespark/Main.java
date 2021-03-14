@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        StackofStrings stack = new FixedArrayStackofStrings(10);
+        StackofStrings stack = new ResizingArrayStackofStrings();
         Scanner scanner = new Scanner(System.in);
 
         while (scanner.hasNext()) {
