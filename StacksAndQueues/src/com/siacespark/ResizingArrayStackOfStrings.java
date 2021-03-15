@@ -1,10 +1,10 @@
 package com.siacespark;
 
-public class ResizingArrayStackofStrings implements StackofStrings {
+public class ResizingArrayStackOfStrings implements StackofStrings {
     private String[] s;
     private int N = 0;
 
-    public ResizingArrayStackofStrings() {
+    public ResizingArrayStackOfStrings() {
         s = new String[1];
     }
 

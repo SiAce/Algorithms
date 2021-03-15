@@ -3,7 +3,7 @@ package com.siacespark;
 public interface StackofStrings {
     boolean isEmpty();
 
-    void push(String s);
+    void push(String item);
 
     String pop();
 }

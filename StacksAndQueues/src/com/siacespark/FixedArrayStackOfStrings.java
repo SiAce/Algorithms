@@ -1,10 +1,10 @@
 package com.siacespark;
 
-public class FixedArrayStackofStrings implements StackofStrings {
+public class FixedArrayStackOfStrings implements StackofStrings {
     private String[] s;
     private int N = 0;
 
-    public FixedArrayStackofStrings(int capacity) {
+    public FixedArrayStackOfStrings(int capacity) {
         s = new String[capacity];
     }
 
